@@ -14,6 +14,6 @@ pipeline {
 }
 stage('Approve'){
     steps {
-        input essage: 'Deploy to production?'
+        input message: 'Deploy to production?'
     }
 } 
